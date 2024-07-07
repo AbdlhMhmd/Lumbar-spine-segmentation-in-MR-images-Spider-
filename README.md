@@ -56,12 +56,6 @@ This project aims to advance the development of automatic image analysis methods
 
 The developed spine medical segmentation model achieved an average Dice Score of 0.72, demonstrating its potential to assist healthcare professionals in saving time, reducing effort, and minimizing human error. The MONAI framework facilitated a smoother development process and improved performance.
 
-## References
-
-1. Hatamizadeh, A., et al. (2022). UNETR: Transformers for 3D medical image segmentation. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 574-584.
-2. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. arXiv preprint arXiv:1505.04597.
-3. van der Graaf, J.W., et al. (2024). Lumbar spine segmentation in MR images: a dataset and a public benchmark. Sci Data, 11, 264.
-
 ## How to Use
 
 ### Requirements
