@@ -1,0 +1,1678 @@
+{
+    "description": "Lumbar spine segmentation",
+    "labels": {
+        "0": "background",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "11": "11",
+        "12": "12",
+        "13": "13",
+        "14": "14",
+        "15": "15",
+        "16": "16",
+        "17": "17",
+        "18": "18",
+        "19": "19"
+    },
+    "licence": "Open",
+    "modality": {
+        "0": "MRI"
+    },
+    "name": "Lumbar spine segmentation",
+    "numTest": 4,
+    "numTraining": 360,
+    "numValidation": 48,
+    "reference": "Lumbar spine segmentation",
+    "release": "1.0 30/05/2024",
+    "tensorimagesize": "3D",
+    "test": [
+        "images/1_t1.mha",
+        "images/1_t2.mha",
+        "images/2_t1.mha",
+        "images/2_t2.mha"
+    ],
+    "training": [
+   		{
+            "image": "images/245_t2.mha",
+            "label": "masks/245_t2.mha"
+        },
+		{
+            "image": "images/169_t2.mha",
+            "label": "masks/169_t2.mha"
+        },
+        {
+            "image": "images/36_t1.mha",
+            "label": "masks/36_t1.mha"
+        },
+        {
+            "image": "images/250_t2.mha",
+            "label": "masks/250_t2.mha"
+        },
+        {
+            "image": "images/214_t2.mha",
+            "label": "masks/214_t2.mha"
+        },
+        {
+            "image": "images/138_t2.mha",
+            "label": "masks/138_t2.mha"
+        },
+        {
+            "image": "images/202_t1.mha",
+            "label": "masks/202_t1.mha"
+        },
+        {
+            "image": "images/180_t1.mha",
+            "label": "masks/180_t1.mha"
+        },
+        {
+            "image": "images/10_t1.mha",
+            "label": "masks/10_t1.mha"
+        },
+        {
+            "image": "images/239_t1.mha",
+            "label": "masks/239_t1.mha"
+        },
+        {
+            "image": "images/185_t1.mha",
+            "label": "masks/185_t1.mha"
+        },
+        {
+            "image": "images/137_t2.mha",
+            "label": "masks/137_t2.mha"
+        },
+        {
+            "image": "images/62_t2.mha",
+            "label": "masks/62_t2.mha"
+        },
+        {
+            "image": "images/214_t1.mha",
+            "label": "masks/214_t1.mha"
+        },
+        {
+            "image": "images/63_t2.mha",
+            "label": "masks/63_t2.mha"
+        },
+        {
+            "image": "images/29_t1.mha",
+            "label": "masks/29_t1.mha"
+        },
+        {
+            "image": "images/88_t2.mha",
+            "label": "masks/88_t2.mha"
+        },
+        {
+            "image": "images/10_t2.mha",
+            "label": "masks/10_t2.mha"
+        },
+        {
+            "image": "images/140_t1.mha",
+            "label": "masks/140_t1.mha"
+        },
+        {
+            "image": "images/61_t2.mha",
+            "label": "masks/61_t2.mha"
+        },
+        {
+            "image": "images/115_t2.mha",
+            "label": "masks/115_t2.mha"
+        },
+        {
+            "image": "images/116_t2.mha",
+            "label": "masks/116_t2.mha"
+        },
+        {
+            "image": "images/249_t1.mha",
+            "label": "masks/249_t1.mha"
+        },
+        {
+            "image": "images/200_t2.mha",
+            "label": "masks/200_t2.mha"
+        },
+        {
+            "image": "images/113_t2.mha",
+            "label": "masks/113_t2.mha"
+        },
+        {
+            "image": "images/222_t1.mha",
+            "label": "masks/222_t1.mha"
+        },
+        {
+            "image": "images/156_t1.mha",
+            "label": "masks/156_t1.mha"
+        },
+        {
+            "image": "images/30_t1.mha",
+            "label": "masks/30_t1.mha"
+        },
+        {
+            "image": "images/68_t1.mha",
+            "label": "masks/68_t1.mha"
+        },
+        {
+            "image": "images/252_t2.mha",
+            "label": "masks/252_t2.mha"
+        },
+        {
+            "image": "images/221_t2.mha",
+            "label": "masks/221_t2.mha"
+        },
+        {
+            "image": "images/90_t1.mha",
+            "label": "masks/90_t1.mha"
+        },
+        {
+            "image": "images/90_t2.mha",
+            "label": "masks/90_t2.mha"
+        },
+        {
+            "image": "images/3_t1.mha",
+            "label": "masks/3_t1.mha"
+        },
+        {
+            "image": "images/31_t2.mha",
+            "label": "masks/31_t2.mha"
+        },
+        {
+            "image": "images/99_t2.mha",
+            "label": "masks/99_t2.mha"
+        },
+        {
+            "image": "images/203_t2.mha",
+            "label": "masks/203_t2.mha"
+        },
+        {
+            "image": "images/255_t1.mha",
+            "label": "masks/255_t1.mha"
+        },
+        {
+            "image": "images/51_t1.mha",
+            "label": "masks/51_t1.mha"
+        },
+        {
+            "image": "images/191_t1.mha",
+            "label": "masks/191_t1.mha"
+        },
+        {
+            "image": "images/126_t1.mha",
+            "label": "masks/126_t1.mha"
+        },
+        {
+            "image": "images/177_t2.mha",
+            "label": "masks/177_t2.mha"
+        },
+        {
+            "image": "images/112_t1.mha",
+            "label": "masks/112_t1.mha"
+        },
+        {
+            "image": "images/192_t1.mha",
+            "label": "masks/192_t1.mha"
+        },
+        {
+            "image": "images/59_t2.mha",
+            "label": "masks/59_t2.mha"
+        },
+        {
+            "image": "images/108_t2.mha",
+            "label": "masks/108_t2.mha"
+        },
+        {
+            "image": "images/163_t2.mha",
+            "label": "masks/163_t2.mha"
+        },
+        {
+            "image": "images/165_t1.mha",
+            "label": "masks/165_t1.mha"
+        },
+        {
+            "image": "images/125_t1.mha",
+            "label": "masks/125_t1.mha"
+        },
+        {
+            "image": "images/75_t2.mha",
+            "label": "masks/75_t2.mha"
+        },
+        {
+            "image": "images/149_t1.mha",
+            "label": "masks/149_t1.mha"
+        },
+        {
+            "image": "images/136_t1.mha",
+            "label": "masks/136_t1.mha"
+        },
+        {
+            "image": "images/236_t2.mha",
+            "label": "masks/236_t2.mha"
+        },
+        {
+            "image": "images/209_t1.mha",
+            "label": "masks/209_t1.mha"
+        },
+        {
+            "image": "images/34_t1.mha",
+            "label": "masks/34_t1.mha"
+        },
+        {
+            "image": "images/56_t2.mha",
+            "label": "masks/56_t2.mha"
+        },
+        {
+            "image": "images/256_t1.mha",
+            "label": "masks/256_t1.mha"
+        },
+        {
+            "image": "images/44_t1.mha",
+            "label": "masks/44_t1.mha"
+        },
+        {
+            "image": "images/47_t1.mha",
+            "label": "masks/47_t1.mha"
+        },
+        {
+            "image": "images/39_t2.mha",
+            "label": "masks/39_t2.mha"
+        },
+        {
+            "image": "images/3_t2.mha",
+            "label": "masks/3_t2.mha"
+        },
+        {
+            "image": "images/143_t2.mha",
+            "label": "masks/143_t2.mha"
+        },
+        {
+            "image": "images/67_t1.mha",
+            "label": "masks/67_t1.mha"
+        },
+        {
+            "image": "images/22_t1.mha",
+            "label": "masks/22_t1.mha"
+        },
+        {
+            "image": "images/213_t2.mha",
+            "label": "masks/213_t2.mha"
+        },
+        {
+            "image": "images/177_t1.mha",
+            "label": "masks/177_t1.mha"
+        },
+        {
+            "image": "images/115_t1.mha",
+            "label": "masks/115_t1.mha"
+        },
+        {
+            "image": "images/65_t1.mha",
+            "label": "masks/65_t1.mha"
+        },
+        {
+            "image": "images/137_t1.mha",
+            "label": "masks/137_t1.mha"
+        },
+        {
+            "image": "images/196_t1.mha",
+            "label": "masks/196_t1.mha"
+        },
+        {
+            "image": "images/130_t1.mha",
+            "label": "masks/130_t1.mha"
+        },
+        {
+            "image": "images/162_t2.mha",
+            "label": "masks/162_t2.mha"
+        },
+        {
+            "image": "images/113_t1.mha",
+            "label": "masks/113_t1.mha"
+        },
+        {
+            "image": "images/78_t1.mha",
+            "label": "masks/78_t1.mha"
+        },
+        {
+            "image": "images/56_t1.mha",
+            "label": "masks/56_t1.mha"
+        },
+        {
+            "image": "images/124_t2.mha",
+            "label": "masks/124_t2.mha"
+        },
+        {
+            "image": "images/224_t2.mha",
+            "label": "masks/224_t2.mha"
+        },
+        {
+            "image": "images/223_t2.mha",
+            "label": "masks/223_t2.mha"
+        },
+        {
+            "image": "images/31_t1.mha",
+            "label": "masks/31_t1.mha"
+        },
+        {
+            "image": "images/173_t2.mha",
+            "label": "masks/173_t2.mha"
+        },
+        {
+            "image": "images/197_t2.mha",
+            "label": "masks/197_t2.mha"
+        },
+        {
+            "image": "images/109_t1.mha",
+            "label": "masks/109_t1.mha"
+        },
+        {
+            "image": "images/74_t2.mha",
+            "label": "masks/74_t2.mha"
+        },
+        {
+            "image": "images/61_t1.mha",
+            "label": "masks/61_t1.mha"
+        },
+        {
+            "image": "images/33_t1.mha",
+            "label": "masks/33_t1.mha"
+        },
+        {
+            "image": "images/147_t2.mha",
+            "label": "masks/147_t2.mha"
+        },
+        {
+            "image": "images/174_t1.mha",
+            "label": "masks/174_t1.mha"
+        },
+        {
+            "image": "images/187_t2.mha",
+            "label": "masks/187_t2.mha"
+        },
+        {
+            "image": "images/257_t2.mha",
+            "label": "masks/257_t2.mha"
+        },
+        {
+            "image": "images/6_t2.mha",
+            "label": "masks/6_t2.mha"
+        },
+        {
+            "image": "images/66_t2.mha",
+            "label": "masks/66_t2.mha"
+        },
+        {
+            "image": "images/45_t1.mha",
+            "label": "masks/45_t1.mha"
+        },
+        {
+            "image": "images/98_t1.mha",
+            "label": "masks/98_t1.mha"
+        },
+        {
+            "image": "images/142_t1.mha",
+            "label": "masks/142_t1.mha"
+        },
+        {
+            "image": "images/146_t2.mha",
+            "label": "masks/146_t2.mha"
+        },
+        {
+            "image": "images/98_t2.mha",
+            "label": "masks/98_t2.mha"
+        },
+        {
+            "image": "images/75_t1.mha",
+            "label": "masks/75_t1.mha"
+        },
+        {
+            "image": "images/74_t1.mha",
+            "label": "masks/74_t1.mha"
+        },
+        {
+            "image": "images/224_t1.mha",
+            "label": "masks/224_t1.mha"
+        },
+        {
+            "image": "images/72_t1.mha",
+            "label": "masks/72_t1.mha"
+        },
+        {
+            "image": "images/244_t1.mha",
+            "label": "masks/244_t1.mha"
+        },
+        {
+            "image": "images/190_t1.mha",
+            "label": "masks/190_t1.mha"
+        },
+        {
+            "image": "images/149_t2.mha",
+            "label": "masks/149_t2.mha"
+        },
+        {
+            "image": "images/73_t1.mha",
+            "label": "masks/73_t1.mha"
+        },
+        {
+            "image": "images/203_t1.mha",
+            "label": "masks/203_t1.mha"
+        },
+        {
+            "image": "images/145_t1.mha",
+            "label": "masks/145_t1.mha"
+        },
+        {
+            "image": "images/19_t1.mha",
+            "label": "masks/19_t1.mha"
+        },
+        {
+            "image": "images/28_t2.mha",
+            "label": "masks/28_t2.mha"
+        },
+        {
+            "image": "images/196_t2.mha",
+            "label": "masks/196_t2.mha"
+        },
+        {
+            "image": "images/210_t1.mha",
+            "label": "masks/210_t1.mha"
+        },
+        {
+            "image": "images/73_t2.mha",
+            "label": "masks/73_t2.mha"
+        },
+        {
+            "image": "images/232_t2.mha",
+            "label": "masks/232_t2.mha"
+        },
+        {
+            "image": "images/152_t1.mha",
+            "label": "masks/152_t1.mha"
+        },
+        {
+            "image": "images/167_t2.mha",
+            "label": "masks/167_t2.mha"
+        },
+        {
+            "image": "images/159_t2.mha",
+            "label": "masks/159_t2.mha"
+        },
+        {
+            "image": "images/11_t2.mha",
+            "label": "masks/11_t2.mha"
+        },
+        {
+            "image": "images/112_t2.mha",
+            "label": "masks/112_t2.mha"
+        },
+        {
+            "image": "images/210_t2.mha",
+            "label": "masks/210_t2.mha"
+        },
+        {
+            "image": "images/63_t1.mha",
+            "label": "masks/63_t1.mha"
+        },
+        {
+            "image": "images/152_t2.mha",
+            "label": "masks/152_t2.mha"
+        },
+        {
+            "image": "images/52_t1.mha",
+            "label": "masks/52_t1.mha"
+        },
+        {
+            "image": "images/105_t2.mha",
+            "label": "masks/105_t2.mha"
+        },
+        {
+            "image": "images/251_t1.mha",
+            "label": "masks/251_t1.mha"
+        },
+        {
+            "image": "images/208_t2.mha",
+            "label": "masks/208_t2.mha"
+        },
+        {
+            "image": "images/212_t2.mha",
+            "label": "masks/212_t2.mha"
+        },
+        {
+            "image": "images/68_t2.mha",
+            "label": "masks/68_t2.mha"
+        },
+        {
+            "image": "images/15_t1.mha",
+            "label": "masks/15_t1.mha"
+        },
+        {
+            "image": "images/65_t2.mha",
+            "label": "masks/65_t2.mha"
+        },
+        {
+            "image": "images/104_t2.mha",
+            "label": "masks/104_t2.mha"
+        },
+        {
+            "image": "images/207_t2.mha",
+            "label": "masks/207_t2.mha"
+        },
+        {
+            "image": "images/234_t2.mha",
+            "label": "masks/234_t2.mha"
+        },
+        {
+            "image": "images/19_t2.mha",
+            "label": "masks/19_t2.mha"
+        },
+        {
+            "image": "images/243_t1.mha",
+            "label": "masks/243_t1.mha"
+        },
+        {
+            "image": "images/171_t1.mha",
+            "label": "masks/171_t1.mha"
+        },
+        {
+            "image": "images/57_t2.mha",
+            "label": "masks/57_t2.mha"
+        },
+        {
+            "image": "images/209_t2.mha",
+            "label": "masks/209_t2.mha"
+        },
+        {
+            "image": "images/8_t1.mha",
+            "label": "masks/8_t1.mha"
+        },
+        {
+            "image": "images/143_t1.mha",
+            "label": "masks/143_t1.mha"
+        },
+        {
+            "image": "images/85_t2.mha",
+            "label": "masks/85_t2.mha"
+        },
+        {
+            "image": "images/40_t1.mha",
+            "label": "masks/40_t1.mha"
+        },
+        {
+            "image": "images/50_t1.mha",
+            "label": "masks/50_t1.mha"
+        },
+        {
+            "image": "images/142_t2.mha",
+            "label": "masks/142_t2.mha"
+        },
+        {
+            "image": "images/60_t2.mha",
+            "label": "masks/60_t2.mha"
+        },
+        {
+            "image": "images/219_t1.mha",
+            "label": "masks/219_t1.mha"
+        },
+        {
+            "image": "images/5_t2.mha",
+            "label": "masks/5_t2.mha"
+        },
+        {
+            "image": "images/251_t2.mha",
+            "label": "masks/251_t2.mha"
+        },
+        {
+            "image": "images/233_t1.mha",
+            "label": "masks/233_t1.mha"
+        },
+        {
+            "image": "images/25_t2.mha",
+            "label": "masks/25_t2.mha"
+        },
+        {
+            "image": "images/93_t1.mha",
+            "label": "masks/93_t1.mha"
+        },
+        {
+            "image": "images/127_t1.mha",
+            "label": "masks/127_t1.mha"
+        },
+        {
+            "image": "images/87_t2.mha",
+            "label": "masks/87_t2.mha"
+        },
+        {
+            "image": "images/24_t1.mha",
+            "label": "masks/24_t1.mha"
+        },
+        {
+            "image": "images/37_t1.mha",
+            "label": "masks/37_t1.mha"
+        },
+        {
+            "image": "images/231_t2.mha",
+            "label": "masks/231_t2.mha"
+        },
+        {
+            "image": "images/96_t2.mha",
+            "label": "masks/96_t2.mha"
+        },
+        {
+            "image": "images/244_t2.mha",
+            "label": "masks/244_t2.mha"
+        },
+        {
+            "image": "images/237_t2.mha",
+            "label": "masks/237_t2.mha"
+        },
+        {
+            "image": "images/100_t2.mha",
+            "label": "masks/100_t2.mha"
+        },
+        {
+            "image": "images/246_t2.mha",
+            "label": "masks/246_t2.mha"
+        },
+        {
+            "image": "images/16_t1.mha",
+            "label": "masks/16_t1.mha"
+        },
+        {
+            "image": "images/23_t2.mha",
+            "label": "masks/23_t2.mha"
+        },
+        {
+            "image": "images/118_t1.mha",
+            "label": "masks/118_t1.mha"
+        },
+        {
+            "image": "images/226_t2.mha",
+            "label": "masks/226_t2.mha"
+        },
+        {
+            "image": "images/1_t1.mha",
+            "label": "masks/1_t1.mha"
+        },
+        {
+            "image": "images/107_t1.mha",
+            "label": "masks/107_t1.mha"
+        },
+        {
+            "image": "images/9_t1.mha",
+            "label": "masks/9_t1.mha"
+        },
+        {
+            "image": "images/18_t2.mha",
+            "label": "masks/18_t2.mha"
+        },
+        {
+            "image": "images/38_t1.mha",
+            "label": "masks/38_t1.mha"
+        },
+        {
+            "image": "images/233_t2.mha",
+            "label": "masks/233_t2.mha"
+        },
+        {
+            "image": "images/171_t2.mha",
+            "label": "masks/171_t2.mha"
+        },
+        {
+            "image": "images/241_t2.mha",
+            "label": "masks/241_t2.mha"
+        },
+        {
+            "image": "images/8_t2.mha",
+            "label": "masks/8_t2.mha"
+        },
+        {
+            "image": "images/228_t1.mha",
+            "label": "masks/228_t1.mha"
+        },
+        {
+            "image": "images/12_t2.mha",
+            "label": "masks/12_t2.mha"
+        },
+        {
+            "image": "images/256_t2.mha",
+            "label": "masks/256_t2.mha"
+        },
+        {
+            "image": "images/69_t2.mha",
+            "label": "masks/69_t2.mha"
+        },
+        {
+            "image": "images/182_t1.mha",
+            "label": "masks/182_t1.mha"
+        },
+        {
+            "image": "images/91_t2.mha",
+            "label": "masks/91_t2.mha"
+        },
+        {
+            "image": "images/1_t2.mha",
+            "label": "masks/1_t2.mha"
+        },
+        {
+            "image": "images/121_t2.mha",
+            "label": "masks/121_t2.mha"
+        },
+        {
+            "image": "images/22_t2.mha",
+            "label": "masks/22_t2.mha"
+        },
+        {
+            "image": "images/136_t2.mha",
+            "label": "masks/136_t2.mha"
+        },
+        {
+            "image": "images/48_t2.mha",
+            "label": "masks/48_t2.mha"
+        },
+        {
+            "image": "images/249_t2.mha",
+            "label": "masks/249_t2.mha"
+        },
+        {
+            "image": "images/213_t1.mha",
+            "label": "masks/213_t1.mha"
+        },
+        {
+            "image": "images/134_t2.mha",
+            "label": "masks/134_t2.mha"
+        },
+        {
+            "image": "images/80_t2.mha",
+            "label": "masks/80_t2.mha"
+        },
+        {
+            "image": "images/254_t1.mha",
+            "label": "masks/254_t1.mha"
+        },
+        {
+            "image": "images/166_t2.mha",
+            "label": "masks/166_t2.mha"
+        },
+        {
+            "image": "images/234_t1.mha",
+            "label": "masks/234_t1.mha"
+        },
+        {
+            "image": "images/104_t1.mha",
+            "label": "masks/104_t1.mha"
+        },
+        {
+            "image": "images/226_t1.mha",
+            "label": "masks/226_t1.mha"
+        },
+        {
+            "image": "images/59_t1.mha",
+            "label": "masks/59_t1.mha"
+        },
+        {
+            "image": "images/2_t1.mha",
+            "label": "masks/2_t1.mha"
+        },
+        {
+            "image": "images/195_t1.mha",
+            "label": "masks/195_t1.mha"
+        },
+        {
+            "image": "images/4_t1.mha",
+            "label": "masks/4_t1.mha"
+        },
+        {
+            "image": "images/131_t1.mha",
+            "label": "masks/131_t1.mha"
+        },
+        {
+            "image": "images/82_t1.mha",
+            "label": "masks/82_t1.mha"
+        },
+        {
+            "image": "images/175_t2.mha",
+            "label": "masks/175_t2.mha"
+        },
+        {
+            "image": "images/132_t1.mha",
+            "label": "masks/132_t1.mha"
+        },
+        {
+            "image": "images/229_t1.mha",
+            "label": "masks/229_t1.mha"
+        },
+        {
+            "image": "images/198_t2.mha",
+            "label": "masks/198_t2.mha"
+        },
+        {
+            "image": "images/184_t2.mha",
+            "label": "masks/184_t2.mha"
+        },
+        {
+            "image": "images/172_t2.mha",
+            "label": "masks/172_t2.mha"
+        },
+        {
+            "image": "images/110_t1.mha",
+            "label": "masks/110_t1.mha"
+        },
+        {
+            "image": "images/28_t1.mha",
+            "label": "masks/28_t1.mha"
+        },
+        {
+            "image": "images/82_t2.mha",
+            "label": "masks/82_t2.mha"
+        },
+        {
+            "image": "images/193_t2.mha",
+            "label": "masks/193_t2.mha"
+        },
+        {
+            "image": "images/120_t2.mha",
+            "label": "masks/120_t2.mha"
+        },
+        {
+            "image": "images/71_t1.mha",
+            "label": "masks/71_t1.mha"
+        },
+        {
+            "image": "images/236_t1.mha",
+            "label": "masks/236_t1.mha"
+        },
+        {
+            "image": "images/237_t1.mha",
+            "label": "masks/237_t1.mha"
+        },
+        {
+            "image": "images/188_t1.mha",
+            "label": "masks/188_t1.mha"
+        },
+        {
+            "image": "images/55_t2.mha",
+            "label": "masks/55_t2.mha"
+        },
+        {
+            "image": "images/58_t2.mha",
+            "label": "masks/58_t2.mha"
+        },
+        {
+            "image": "images/156_t2.mha",
+            "label": "masks/156_t2.mha"
+        },
+        {
+            "image": "images/118_t2.mha",
+            "label": "masks/118_t2.mha"
+        },
+        {
+            "image": "images/241_t1.mha",
+            "label": "masks/241_t1.mha"
+        },
+        {
+            "image": "images/133_t2.mha",
+            "label": "masks/133_t2.mha"
+        },
+        {
+            "image": "images/32_t2.mha",
+            "label": "masks/32_t2.mha"
+        },
+        {
+            "image": "images/220_t2.mha",
+            "label": "masks/220_t2.mha"
+        },
+        {
+            "image": "images/89_t2.mha",
+            "label": "masks/89_t2.mha"
+        },
+        {
+            "image": "images/106_t1.mha",
+            "label": "masks/106_t1.mha"
+        },
+        {
+            "image": "images/227_t2.mha",
+            "label": "masks/227_t2.mha"
+        },
+        {
+            "image": "images/13_t1.mha",
+            "label": "masks/13_t1.mha"
+        },
+        {
+            "image": "images/9_t2.mha",
+            "label": "masks/9_t2.mha"
+        },
+        {
+            "image": "images/130_t2.mha",
+            "label": "masks/130_t2.mha"
+        },
+        {
+            "image": "images/188_t2.mha",
+            "label": "masks/188_t2.mha"
+        },
+        {
+            "image": "images/108_t1.mha",
+            "label": "masks/108_t1.mha"
+        },
+        {
+            "image": "images/122_t2.mha",
+            "label": "masks/122_t2.mha"
+        },
+        {
+            "image": "images/36_t2.mha",
+            "label": "masks/36_t2.mha"
+        },
+        {
+            "image": "images/106_t2.mha",
+            "label": "masks/106_t2.mha"
+        },
+        {
+            "image": "images/48_t1.mha",
+            "label": "masks/48_t1.mha"
+        },
+        {
+            "image": "images/20_t2.mha",
+            "label": "masks/20_t2.mha"
+        },
+        {
+            "image": "images/218_t1.mha",
+            "label": "masks/218_t1.mha"
+        },
+        {
+            "image": "images/78_t2.mha",
+            "label": "masks/78_t2.mha"
+        },
+        {
+            "image": "images/195_t2.mha",
+            "label": "masks/195_t2.mha"
+        },
+        {
+            "image": "images/17_t1.mha",
+            "label": "masks/17_t1.mha"
+        },
+        {
+            "image": "images/168_t1.mha",
+            "label": "masks/168_t1.mha"
+        },
+        {
+            "image": "images/205_t2.mha",
+            "label": "masks/205_t2.mha"
+        },
+        {
+            "image": "images/242_t2.mha",
+            "label": "masks/242_t2.mha"
+        },
+        {
+            "image": "images/189_t1.mha",
+            "label": "masks/189_t1.mha"
+        },
+        {
+            "image": "images/138_t1.mha",
+            "label": "masks/138_t1.mha"
+        },
+        {
+            "image": "images/254_t2.mha",
+            "label": "masks/254_t2.mha"
+        },
+        {
+            "image": "images/242_t1.mha",
+            "label": "masks/242_t1.mha"
+        },
+        {
+            "image": "images/184_t1.mha",
+            "label": "masks/184_t1.mha"
+        },
+        {
+            "image": "images/229_t2.mha",
+            "label": "masks/229_t2.mha"
+        },
+        {
+            "image": "images/160_t2.mha",
+            "label": "masks/160_t2.mha"
+        },
+        {
+            "image": "images/204_t2.mha",
+            "label": "masks/204_t2.mha"
+        },
+        {
+            "image": "images/223_t1.mha",
+            "label": "masks/223_t1.mha"
+        },
+        {
+            "image": "images/21_t2.mha",
+            "label": "masks/21_t2.mha"
+        },
+        {
+            "image": "images/205_t1.mha",
+            "label": "masks/205_t1.mha"
+        },
+        {
+            "image": "images/57_t1.mha",
+            "label": "masks/57_t1.mha"
+        },
+        {
+            "image": "images/202_t2.mha",
+            "label": "masks/202_t2.mha"
+        },
+        {
+            "image": "images/163_t1.mha",
+            "label": "masks/163_t1.mha"
+        },
+        {
+            "image": "images/225_t2.mha",
+            "label": "masks/225_t2.mha"
+        },
+        {
+            "image": "images/140_t2.mha",
+            "label": "masks/140_t2.mha"
+        },
+        {
+            "image": "images/250_t1.mha",
+            "label": "masks/250_t1.mha"
+        },
+        {
+            "image": "images/16_t2.mha",
+            "label": "masks/16_t2.mha"
+        },
+        {
+            "image": "images/101_t2.mha",
+            "label": "masks/101_t2.mha"
+        },
+        {
+            "image": "images/101_t1.mha",
+            "label": "masks/101_t1.mha"
+        },
+        {
+            "image": "images/64_t2.mha",
+            "label": "masks/64_t2.mha"
+        },
+        {
+            "image": "images/42_t2.mha",
+            "label": "masks/42_t2.mha"
+        },
+        {
+            "image": "images/169_t1.mha",
+            "label": "masks/169_t1.mha"
+        },
+        {
+            "image": "images/18_t1.mha",
+            "label": "masks/18_t1.mha"
+        },
+        {
+            "image": "images/39_t1.mha",
+            "label": "masks/39_t1.mha"
+        },
+        {
+            "image": "images/2_t2.mha",
+            "label": "masks/2_t2.mha"
+        },
+        {
+            "image": "images/55_t1.mha",
+            "label": "masks/55_t1.mha"
+        },
+        {
+            "image": "images/81_t1.mha",
+            "label": "masks/81_t1.mha"
+        },
+        {
+            "image": "images/116_t1.mha",
+            "label": "masks/116_t1.mha"
+        },
+        {
+            "image": "images/225_t1.mha",
+            "label": "masks/225_t1.mha"
+        },
+        {
+            "image": "images/179_t1.mha",
+            "label": "masks/179_t1.mha"
+        },
+        {
+            "image": "images/47_t2.mha",
+            "label": "masks/47_t2.mha"
+        },
+        {
+            "image": "images/88_t1.mha",
+            "label": "masks/88_t1.mha"
+        },
+        {
+            "image": "images/257_t1.mha",
+            "label": "masks/257_t1.mha"
+        },
+        {
+            "image": "images/107_t2.mha",
+            "label": "masks/107_t2.mha"
+        },
+        {
+            "image": "images/32_t1.mha",
+            "label": "masks/32_t1.mha"
+        },
+        {
+            "image": "images/94_t2.mha",
+            "label": "masks/94_t2.mha"
+        },
+        {
+            "image": "images/215_t1.mha",
+            "label": "masks/215_t1.mha"
+        },
+        {
+            "image": "images/125_t2.mha",
+            "label": "masks/125_t2.mha"
+        },
+        {
+            "image": "images/215_t2.mha",
+            "label": "masks/215_t2.mha"
+        },
+        {
+            "image": "images/105_t1.mha",
+            "label": "masks/105_t1.mha"
+        },
+        {
+            "image": "images/174_t2.mha",
+            "label": "masks/174_t2.mha"
+        },
+        {
+            "image": "images/58_t1.mha",
+            "label": "masks/58_t1.mha"
+        },
+        {
+            "image": "images/170_t2.mha",
+            "label": "masks/170_t2.mha"
+        },
+        {
+            "image": "images/13_t2.mha",
+            "label": "masks/13_t2.mha"
+        },
+        {
+            "image": "images/192_t2.mha",
+            "label": "masks/192_t2.mha"
+        },
+        {
+            "image": "images/168_t2.mha",
+            "label": "masks/168_t2.mha"
+        },
+        {
+            "image": "images/243_t2.mha",
+            "label": "masks/243_t2.mha"
+        },
+        {
+            "image": "images/145_t2.mha",
+            "label": "masks/145_t2.mha"
+        },
+        {
+            "image": "images/162_t1.mha",
+            "label": "masks/162_t1.mha"
+        },
+        {
+            "image": "images/170_t1.mha",
+            "label": "masks/170_t1.mha"
+        },
+        {
+            "image": "images/155_t1.mha",
+            "label": "masks/155_t1.mha"
+        },
+        {
+            "image": "images/232_t1.mha",
+            "label": "masks/232_t1.mha"
+        },
+        {
+            "image": "images/182_t2.mha",
+            "label": "masks/182_t2.mha"
+        },
+        {
+            "image": "images/83_t2.mha",
+            "label": "masks/83_t2.mha"
+        },
+        {
+            "image": "images/173_t1.mha",
+            "label": "masks/173_t1.mha"
+        },
+        {
+            "image": "images/133_t1.mha",
+            "label": "masks/133_t1.mha"
+        },
+        {
+            "image": "images/189_t2.mha",
+            "label": "masks/189_t2.mha"
+        },
+        {
+            "image": "images/100_t1.mha",
+            "label": "masks/100_t1.mha"
+        },
+        {
+            "image": "images/217_t2.mha",
+            "label": "masks/217_t2.mha"
+        },
+        {
+            "image": "images/37_t2.mha",
+            "label": "masks/37_t2.mha"
+        },
+        {
+            "image": "images/193_t1.mha",
+            "label": "masks/193_t1.mha"
+        },
+        {
+            "image": "images/64_t1.mha",
+            "label": "masks/64_t1.mha"
+        },
+        {
+            "image": "images/204_t1.mha",
+            "label": "masks/204_t1.mha"
+        },
+        {
+            "image": "images/165_t2.mha",
+            "label": "masks/165_t2.mha"
+        },
+        {
+            "image": "images/172_t1.mha",
+            "label": "masks/172_t1.mha"
+        },
+        {
+            "image": "images/227_t1.mha",
+            "label": "masks/227_t1.mha"
+        },
+        {
+            "image": "images/218_t2.mha",
+            "label": "masks/218_t2.mha"
+        },
+        {
+            "image": "images/86_t1.mha",
+            "label": "masks/86_t1.mha"
+        },
+        {
+            "image": "images/190_t2.mha",
+            "label": "masks/190_t2.mha"
+        },
+        {
+            "image": "images/121_t1.mha",
+            "label": "masks/121_t1.mha"
+        },
+        {
+            "image": "images/151_t2.mha",
+            "label": "masks/151_t2.mha"
+        },
+        {
+            "image": "images/255_t2.mha",
+            "label": "masks/255_t2.mha"
+        },
+        {
+            "image": "images/220_t1.mha",
+            "label": "masks/220_t1.mha"
+        },
+        {
+            "image": "images/96_t1.mha",
+            "label": "masks/96_t1.mha"
+        },
+        {
+            "image": "images/222_t2.mha",
+            "label": "masks/222_t2.mha"
+        },
+        {
+            "image": "images/44_t2.mha",
+            "label": "masks/44_t2.mha"
+        },
+        {
+            "image": "images/117_t2.mha",
+            "label": "masks/117_t2.mha"
+        },
+        {
+            "image": "images/154_t1.mha",
+            "label": "masks/154_t1.mha"
+        },
+        {
+            "image": "images/62_t1.mha",
+            "label": "masks/62_t1.mha"
+        },
+        {
+            "image": "images/85_t1.mha",
+            "label": "masks/85_t1.mha"
+        },
+        {
+            "image": "images/154_t2.mha",
+            "label": "masks/154_t2.mha"
+        },
+        {
+            "image": "images/45_t2.mha",
+            "label": "masks/45_t2.mha"
+        },
+        {
+            "image": "images/109_t2.mha",
+            "label": "masks/109_t2.mha"
+        },
+        {
+            "image": "images/93_t2.mha",
+            "label": "masks/93_t2.mha"
+        },
+        {
+            "image": "images/50_t2.mha",
+            "label": "masks/50_t2.mha"
+        },
+        {
+            "image": "images/191_t2.mha",
+            "label": "masks/191_t2.mha"
+        },
+        {
+            "image": "images/80_t1.mha",
+            "label": "masks/80_t1.mha"
+        },
+        {
+            "image": "images/53_t1.mha",
+            "label": "masks/53_t1.mha"
+        },
+        {
+            "image": "images/52_t2.mha",
+            "label": "masks/52_t2.mha"
+        },
+        {
+            "image": "images/253_t1.mha",
+            "label": "masks/253_t1.mha"
+        },
+        {
+            "image": "images/186_t1.mha",
+            "label": "masks/186_t1.mha"
+        },
+        {
+            "image": "images/144_t2.mha",
+            "label": "masks/144_t2.mha"
+        },
+        {
+            "image": "images/34_t2.mha",
+            "label": "masks/34_t2.mha"
+        },
+        {
+            "image": "images/24_t2.mha",
+            "label": "masks/24_t2.mha"
+        },
+        {
+            "image": "images/11_t1.mha",
+            "label": "masks/11_t1.mha"
+        },
+        {
+            "image": "images/40_t2.mha",
+            "label": "masks/40_t2.mha"
+        },
+        {
+            "image": "images/30_t2.mha",
+            "label": "masks/30_t2.mha"
+        },
+        {
+            "image": "images/7_t1.mha",
+            "label": "masks/7_t1.mha"
+        },
+        {
+            "image": "images/201_t2.mha",
+            "label": "masks/201_t2.mha"
+        },
+        {
+            "image": "images/12_t1.mha",
+            "label": "masks/12_t1.mha"
+        },
+        {
+            "image": "images/217_t1.mha",
+            "label": "masks/217_t1.mha"
+        },
+        {
+            "image": "images/33_t2.mha",
+            "label": "masks/33_t2.mha"
+        },
+        {
+            "image": "images/155_t2.mha",
+            "label": "masks/155_t2.mha"
+        },
+        {
+            "image": "images/146_t1.mha",
+            "label": "masks/146_t1.mha"
+        },
+        {
+            "image": "images/51_t2.mha",
+            "label": "masks/51_t2.mha"
+        },
+        {
+            "image": "images/212_t1.mha",
+            "label": "masks/212_t1.mha"
+        },
+        {
+            "image": "images/94_t1.mha",
+            "label": "masks/94_t1.mha"
+        },
+        {
+            "image": "images/66_t1.mha",
+            "label": "masks/66_t1.mha"
+        },
+        {
+            "image": "images/207_t1.mha",
+            "label": "masks/207_t1.mha"
+        },
+        {
+            "image": "images/87_t1.mha",
+            "label": "masks/87_t1.mha"
+        },
+        {
+            "image": "images/252_t1.mha",
+            "label": "masks/252_t1.mha"
+        },
+        {
+            "image": "images/25_t1.mha",
+            "label": "masks/25_t1.mha"
+        },
+        {
+            "image": "images/35_t2.mha",
+            "label": "masks/35_t2.mha"
+        },
+        {
+            "image": "images/186_t2.mha",
+            "label": "masks/186_t2.mha"
+        },
+        {
+            "image": "images/231_t1.mha",
+            "label": "masks/231_t1.mha"
+        },
+        {
+            "image": "images/228_t2.mha",
+            "label": "masks/228_t2.mha"
+        },
+        {
+            "image": "images/122_t1.mha",
+            "label": "masks/122_t1.mha"
+        },
+        {
+            "image": "images/175_t1.mha",
+            "label": "masks/175_t1.mha"
+        }
+    ],
+    "validation": [
+        {
+            "image": "images/7_t2.mha",
+            "label": "masks/7_t2.mha"
+        },
+        {
+            "image": "images/127_t2.mha",
+            "label": "masks/127_t2.mha"
+        },
+        {
+            "image": "images/83_t1.mha",
+            "label": "masks/83_t1.mha"
+        },
+        {
+            "image": "images/187_t1.mha",
+            "label": "masks/187_t1.mha"
+        },
+        {
+            "image": "images/29_t2.mha",
+            "label": "masks/29_t2.mha"
+        },
+        {
+            "image": "images/166_t1.mha",
+            "label": "masks/166_t1.mha"
+        },
+        {
+            "image": "images/129_t1.mha",
+            "label": "masks/129_t1.mha"
+        },
+        {
+            "image": "images/71_t2.mha",
+            "label": "masks/71_t2.mha"
+        },
+        {
+            "image": "images/131_t2.mha",
+            "label": "masks/131_t2.mha"
+        },
+        {
+            "image": "images/95_t1.mha",
+            "label": "masks/95_t1.mha"
+        },
+        {
+            "image": "images/144_t1.mha",
+            "label": "masks/144_t1.mha"
+        },
+        {
+            "image": "images/5_t1.mha",
+            "label": "masks/5_t1.mha"
+        },
+        {
+            "image": "images/129_t2.mha",
+            "label": "masks/129_t2.mha"
+        },
+        {
+            "image": "images/181_t1.mha",
+            "label": "masks/181_t1.mha"
+        },
+        {
+            "image": "images/198_t1.mha",
+            "label": "masks/198_t1.mha"
+        },
+        {
+            "image": "images/179_t2.mha",
+            "label": "masks/179_t2.mha"
+        },
+        {
+            "image": "images/161_t2.mha",
+            "label": "masks/161_t2.mha"
+        },
+        {
+            "image": "images/253_t2.mha",
+            "label": "masks/253_t2.mha"
+        },
+        {
+            "image": "images/183_t2.mha",
+            "label": "masks/183_t2.mha"
+        },
+        {
+            "image": "images/239_t2.mha",
+            "label": "masks/239_t2.mha"
+        },
+        {
+            "image": "images/4_t2.mha",
+            "label": "masks/4_t2.mha"
+        },
+        {
+            "image": "images/53_t2.mha",
+            "label": "masks/53_t2.mha"
+        },
+        {
+            "image": "images/161_t1.mha",
+            "label": "masks/161_t1.mha"
+        },
+        {
+            "image": "images/86_t2.mha",
+            "label": "masks/86_t2.mha"
+        },
+        {
+            "image": "images/67_t2.mha",
+            "label": "masks/67_t2.mha"
+        },
+        {
+            "image": "images/35_t1.mha",
+            "label": "masks/35_t1.mha"
+        },
+        {
+            "image": "images/110_t2.mha",
+            "label": "masks/110_t2.mha"
+        },
+        {
+            "image": "images/77_t1.mha",
+            "label": "masks/77_t1.mha"
+        },
+        {
+            "image": "images/17_t2.mha",
+            "label": "masks/17_t2.mha"
+        },
+        {
+            "image": "images/123_t2.mha",
+            "label": "masks/123_t2.mha"
+        },
+        {
+            "image": "images/160_t1.mha",
+            "label": "masks/160_t1.mha"
+        },
+        {
+            "image": "images/185_t2.mha",
+            "label": "masks/185_t2.mha"
+        },
+        {
+            "image": "images/200_t1.mha",
+            "label": "masks/200_t1.mha"
+        },
+        {
+            "image": "images/97_t2.mha",
+            "label": "masks/97_t2.mha"
+        },
+        {
+            "image": "images/81_t2.mha",
+            "label": "masks/81_t2.mha"
+        },
+        {
+            "image": "images/117_t1.mha",
+            "label": "masks/117_t1.mha"
+        },
+        {
+            "image": "images/69_t1.mha",
+            "label": "masks/69_t1.mha"
+        },
+        {
+            "image": "images/95_t2.mha",
+            "label": "masks/95_t2.mha"
+        },
+        {
+            "image": "images/181_t2.mha",
+            "label": "masks/181_t2.mha"
+        },
+        {
+            "image": "images/60_t1.mha",
+            "label": "masks/60_t1.mha"
+        },
+        {
+            "image": "images/38_t2.mha",
+            "label": "masks/38_t2.mha"
+        },
+        {
+            "image": "images/221_t1.mha",
+            "label": "masks/221_t1.mha"
+        },
+        {
+            "image": "images/245_t1.mha",
+            "label": "masks/245_t1.mha"
+        },
+        {
+            "image": "images/23_t1.mha",
+            "label": "masks/23_t1.mha"
+        },
+        {
+            "image": "images/15_t2.mha",
+            "label": "masks/15_t2.mha"
+        },
+        {
+            "image": "images/167_t1.mha",
+            "label": "masks/167_t1.mha"
+        },
+        {
+            "image": "images/122_t1.mha",
+            "label": "masks/122_t1.mha"
+        },
+        {
+            "image": "images/175_t1.mha",
+            "label": "masks/175_t1.mha"
+        }
+    ]
+}
