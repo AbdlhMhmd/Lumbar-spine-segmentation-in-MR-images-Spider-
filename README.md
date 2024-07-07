@@ -70,7 +70,6 @@ The developed spine medical segmentation model achieved an average Dice Score of
 - MONAI
 - SimpleITK
 - TQDM
-- Other dependencies as listed in `requirements.txt`
 
 ### Installation
 
@@ -103,8 +102,4 @@ The developed spine medical segmentation model achieved an average Dice Score of
 
 - `code/`: Contains the Python scripts for data display, inspection, resampling, JSON file creation, MONAI model, and debugging codes.
 - `presentation/`: Includes the presentation discussed with the professor.
-- `report/`: Contains the detailed report documenting the steps and other relative work.
-
-## Acknowledgments
-
-We extend our gratitude to our professor and the institutions involved for their support and the provision of data for this project.
+- `report/`: Contains the detailed report documenting the steps and other related work.
